@@ -9,7 +9,7 @@ function Completed() {
 
                 <div className="orders-header">
 
-                    <FaArrowLeft className="back-btn" />
+              <a href="/orders">  <FaArrowLeft className="back-btn" /></a>    
 
                     <h1>My Orders</h1>
 

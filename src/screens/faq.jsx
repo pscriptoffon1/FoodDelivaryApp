@@ -7,7 +7,7 @@ function Faq() {
       <div className="page faq-page">
 
         <div className="faq-header">
-         <a href="/home"> <FaArrowLeft className="back-icon" /></a>
+         <a href="/contactus"> <FaArrowLeft className="back-icon" /></a>
 
           <h1>Help & FAQs</h1>
           <p>how can we help you?</p>
