@@ -18,7 +18,7 @@ function Cancel() {
 
                 <div className="cancel-header">
 
-                  <a href="/completed">  <FaArrowLeft className="back-icon"/></a>
+                  <a href="/orders">  <FaArrowLeft className="back-icon"/></a>
 
                     <h1>Cancel Order</h1>
 

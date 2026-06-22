@@ -9,7 +9,7 @@ function Orders() {
 
                 <div className="orders-header">
 
-                    <a href="/home"><FaArrowLeft className="back-btn"/></a>
+                    
 
                     <h1>My Orders</h1>
 
@@ -27,9 +27,9 @@ function Orders() {
                             Completed
                         </button></a>
 
-                        <button>
-                            Cancelled
-                        </button>
+                          <a href="/cancel"> <button>
+                            Cancel
+                        </button></a>
 
                     </div>
 

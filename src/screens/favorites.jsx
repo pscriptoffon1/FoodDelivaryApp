@@ -8,7 +8,7 @@ function Favorites() {
 
                 <div className="favorites-header">
 
-                   <a href="/home"> <button className="back-btn">
+                   <a href="/orders"> <button className="back-btn">
                         ←
                     </button></a>
 
