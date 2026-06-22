@@ -16,7 +16,7 @@ function Settings() {
       <div className="page settings-page">
 
         <div className="settings-header">
-          <FaArrowLeft className="back-icon" />
+         <a href="/home"><FaArrowLeft className="back-icon" /></a> 
 
           <h1>Settings</h1>
         </div>

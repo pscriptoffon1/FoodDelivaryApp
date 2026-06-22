@@ -3421,3 +3421,193 @@ padding-left:10px;
 border-radius:10px;
 background:white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* верх */
+
+.top-section {
+  background: #f5cb58;
+  height: 130px;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.back-icon {
+  position: absolute;
+  top: 45px;
+  left: 25px;
+  font-size: 18px;
+  color: #e95322;
+  cursor: pointer;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  font-size: 20px;
+  color: white;
+  background: #e95322;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.rating-box {
+  position: absolute;
+  top: 45px;
+  left: 70px;
+
+  font-size: 2px;
+
+
+  color: white;
+  font-size: 12px;
+}
+
+.meal-title {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  color: #391713;
+    background: #e95322;
+      border-radius: 30px;
+      padding: 5px 12px;
+}
+
+/* картинка */
+
+.meal-image-box {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.meal-image {
+  width: 300px;
+  height: 220px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+/* контент */
+
+.meal-content {
+  padding: 25px;
+}
+
+.food-name {
+  font-size: 20px;
+  color: #391713;
+  margin-bottom: 15px;
+}
+
+.food-desc {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.price-counter {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-counter h2 {
+  color: #e95322;
+  font-size: 28px;
+}
+
+.counter-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.counter-box button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.counter-box button:first-child {
+  background: #ffdecf;
+}
+
+.counter-box button:last-child {
+  background: #e95322;
+  color: white;
+}
+
+.counter-box span {
+  font-size: 22px;
+}
+
+/* ингредиенты */
+
+.ingredients {
+  margin-top: 35px;
+}
+
+.ingredients h3 {
+  margin-bottom: 20px;
+  color: #391713;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 0;
+  border-bottom: 1px dashed #ffd8c7;
+}
+
+.ingredient-item span {
+  color: #391713;
+}
+
+.ingredient-item input {
+  width: 18px;
+  height: 18px;
+}
+
+.active input {
+  accent-color: #e95322;
+}
+
+/* кнопка */
+
+.add-cart-btn {
+  width: 100%;
+  height: 50px;
+
+  margin-top: 35px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #e95322;
+  color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}

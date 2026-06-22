@@ -160,7 +160,7 @@ function Home() {
 
                 {/* Card 1 */}
 
-                <div className="food-card1">
+               <a className="tt5" href="/moremenu"><div className="food-card1">
 
                     <img
                         src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087"
@@ -189,6 +189,7 @@ function Home() {
                     </div>
 
                 </div>
+                </a> 
 
                 {/* Line */}
 

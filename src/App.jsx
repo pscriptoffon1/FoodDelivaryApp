@@ -35,6 +35,7 @@ import Menu1 from "./screens/menu1";
 import Favorites from "./screens/favorites";
 import Filter from "./screens/filter";
 import Support from "./screens/support";
+import Moremenu from "./screens/moremenu";
 
 
 
@@ -81,6 +82,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/filter" element={<Filter />} />
           <Route path="/support" element={<Support />} />
+          <Route path="/moremenu" element={<Moremenu />} />
 
 
 
