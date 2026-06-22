@@ -6,7 +6,7 @@ function Addcard() {
         <div className="mobile-wrapper">
             <div className="page add-card-page">
 
-               <a href="/home"> <FaArrowLeft className="back-icon" /></a>
+               <a href="/pay"> <FaArrowLeft className="back-icon" /></a>
 
 
                 <h1 className="title">Add Card</h1>
